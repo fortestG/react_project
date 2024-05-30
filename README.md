@@ -1,1 +1,1 @@
-# react_project
+# react-native-eShop

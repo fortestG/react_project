@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": "..",
+    "paths": {
+      "src": [
+        "src/*"
+      ]
+    },
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "babel.config.js",
+    "w_homework/metro.config.js",
+    "node_modules"
+  ]
+}
